@@ -15,13 +15,13 @@ body {
 }
 
 
+
 .navbar {
     background-color: #1A0B2E;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -375,14 +375,12 @@ section {
     transform: translate(-50%, -50%) scale(1.9);
 }
 
-.girlie
-{   
-    margin: 0;
-    margin-top: 30px;
-    padding: 0;
-    
-}
 
+.girlie {
+    margin-top: 40px;
+    border-radius: 50%;
+    max-height: 400px;
+}
 
 .projects {
     margin-top: 200px; 
